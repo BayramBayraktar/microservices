@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  user-service:
+    build:
+      context: ./user-service
+    ports:
+      - "8001:3003"
+    networks:
+      - e_delivery_app
+networks:
+  e_delivery_app:
