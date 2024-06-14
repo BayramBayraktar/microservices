@@ -47,6 +47,12 @@ minikube start
 kubectl apply -f kubernetes/product-service-deployment.yaml 
 ```
 
+gitignore
+dist
+package-lock.json
+.env
+rabbitmq
+
 ```
 kubectl apply -f kubernetes/product-service.yaml
 ```
